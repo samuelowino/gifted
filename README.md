@@ -1,2 +1,2 @@
-# gifted
-The Gifted Young Scientist Project
+# The GiftED
+The GiftED Young Scientists Project
