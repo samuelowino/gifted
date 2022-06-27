@@ -22,7 +22,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colors.background
                 ) {
-                    Greeting("Android")
+                    Greeting(resources.getString(R.string.app_name))
                 }
             }
         }
@@ -31,13 +31,13 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun Greeting(name: String) {
-    Text(text = "Hello $name!")
+    Text(text = "$name!")
 }
 
 @Preview(showBackground = true)
 @Composable
 fun DefaultPreview() {
     GiftedandroidTheme {
-        Greeting("Android")
+        Greeting("GiftED App")
     }
 }
